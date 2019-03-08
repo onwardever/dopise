@@ -4,13 +4,13 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
+  <name>dopise</name>
+  <url>http://www.dopise.com</url>
+  <description>Dopi Search Engine</description>
+
   <groupId>com.dopise</groupId>
   <artifactId>dopise</artifactId>
   <version>1.0-SNAPSHOT</version>
-
-  <name>dopise</name>
-  <!-- FIXME change it to the project's website -->
-  <url>http://www.example.com</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -26,6 +26,13 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+
+  <developers>
+    <developer>
+      <name>yangdian</name>
+      <email>2406616734@qq.com</email>
+    </developer>
+  </developers>
 
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
